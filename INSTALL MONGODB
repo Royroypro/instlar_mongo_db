@@ -1,0 +1,15 @@
+Instlar mongo db (OFICIAL PERO EN VERSION ANTERIOR 4.4):
+
+
+1. 
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo tee /etc/apt/trusted.gpg.d/mongodb.asc
+
+2.  sudo apt update
+3. echo "deb http://archive.ubuntu.com/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/archive.list
+4. 
+sudo apt update
+5.  sudo apt install libssl1.1
+
+6. sudo apt install mongodb-org
+8. sudo systemctl start mongod
+9. sudo systemctl status mongod
